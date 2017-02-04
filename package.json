@@ -1,0 +1,30 @@
+{
+  "name": "jyrto.virves.ee",
+  "description": "Jüri Virves, koduleht",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt":                  "*",
+    "grunt-cli":              "*",
+    "grunt-concurrent":       "*",
+    "grunt-contrib-clean":    "*",
+    "grunt-contrib-copy":     "*",
+    "grunt-contrib-cssmin":   "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-jshint":   "*",
+    "grunt-contrib-uglify":   "*",
+    "grunt-contrib-watch":    "*",
+    "grunt-ftp-deploy":       "*",
+    "grunt-sftp-deploy":      "*",
+    "grunt-usemin":           "*",
+    "jit-grunt":              "*",
+    "jshint-stylish":         "*",
+    "load-grunt-config":      "*",
+    "time-grunt":             "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {}
+}
