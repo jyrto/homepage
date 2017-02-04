@@ -4,11 +4,11 @@ html {
 }
 
 body {
-	width:           100%;
-	height:          100%;
-	margin:          0;
-	overflow:        hidden;
-	background:      green;
+  width:           100%;
+  height:          100%;
+  margin:          0;
+  overflow:        hidden;
+  background:      green;
 }
 
 img {
@@ -17,31 +17,31 @@ img {
 }
 
 .header {
-	display:         block;
-	position:        absolute;
-	top:             0;
-	left:            0;
-	width:           100%;
-	height:          100px;
-	background:      yellow;
+  display:         block;
+  position:        absolute;
+  top:             0;
+  left:            0;
+  width:           100%;
+  height:          100px;
+  background:      yellow;
 }
 
 .navi {
-	display:         block;
-	position:        absolute;
-	top:             100px;
-	left:            0;
-	bottom:          0;
-	width:           200px;
-	background:      green;
+  display:         block;
+  position:        absolute;
+  top:             100px;
+  left:            0;
+  bottom:          0;
+  width:           200px;
+  background:      green;
 }
 
 .main {
-	display:         block;
-	position:        absolute;
-	top:             100px;
-	left:            200px;
-	right:           0;
-	bottom:          0;
-	background:      blue;
+  display:         block;
+  position:        absolute;
+  top:             100px;
+  left:            200px;
+  right:           0;
+  bottom:          0;
+  background:      blue;
 }
