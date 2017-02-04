@@ -17,6 +17,7 @@
     "grunt-contrib-watch":    "*",
     "grunt-ftp-deploy":       "*",
     "grunt-sftp-deploy":      "*",
+    "grunt-text-replace":     "*",
     "grunt-usemin":           "*",
     "jit-grunt":              "*",
     "jshint-stylish":         "*",

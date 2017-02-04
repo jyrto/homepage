@@ -140,6 +140,23 @@ module.exports = function (grunt) {
       }
     },
 
+    "replace": {
+      "dist": {
+        "src":       ["dist/index.html"],
+        "overwrite": true,
+        "replacements": [
+          {
+            "from": '.css"',
+            "to":   '.css?_v=' + new Date().toISOString().replace("T", "-").replace(/:/g, "-").substr(0, 19) + '"'
+          },
+          {
+            "from": '.js"',
+            "to":   '.js?_v=' + new Date().toISOString().replace("T", "-").replace(/:/g, "-").substr(0, 19) + '"'
+          }
+        ]
+      }
+    },
+		
     "ftp-deploy": {
       "jyrto": {
         auth: {
@@ -159,7 +176,8 @@ module.exports = function (grunt) {
     }
 
   });
-
+	
+  grunt.loadNpmTasks("grunt-text-replace");
 
   grunt.registerTask('serve', 'start and preview', function (target) {
     if (target === 'dist') {
@@ -187,6 +205,7 @@ module.exports = function (grunt) {
   grunt.registerTask("deploy", [
     "clean:dist",
     "copy:dist",
+		"replace:dist",
     //"cssmin",
     //"uglify",
     "ftp-deploy:jyrto"
