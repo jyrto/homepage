@@ -11,10 +11,13 @@ body {
   background:      white;
 }
 
+<<<<<<< HEAD
 img {
   border-radius:   10px;
 }
 
+=======
+>>>>>>> 05256236b562778d62e5eed4572c7a2ba29ff97b
 .header {
   display:         block;
   position:        absolute;
@@ -43,4 +46,10 @@ img {
   right:           0;
   bottom:          0;
   background:      white;
+}
+
+
+.navi img {
+  border:          solid 5px red;
+  border-radius:   10px;
 }
